@@ -10,12 +10,25 @@ body,html {
   font-family: sans-serif;
 }
 
+button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  height: 15rem;
+  width:8em;
+  background: rgba(0, 0, 0, 0.541);
+}
+
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  
 }
 
 .key {
